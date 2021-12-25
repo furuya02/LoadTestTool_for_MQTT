@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "git.ignoreLimitWarning": true,
+  "files.exclude": {
+    "**/*.js.map": true,
+    "**/*.js": {
+    "when": "$(basename).ts"
+    },
+    "**/*.d.ts": {
+      "when": "$(basename).ts"
+      }
+    },
+  "compile-hero.disable-compile-files-on-did-save-code": false
+}

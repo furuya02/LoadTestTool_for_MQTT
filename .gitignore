@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# LoadTestTool_for_MQTT
+dst/*.js
+dst/*.js.map
+dst/certs/*.crt
+dst/certs/*.key
